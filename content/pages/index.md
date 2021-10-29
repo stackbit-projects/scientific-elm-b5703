@@ -16,7 +16,7 @@ sections:
       - type: Button
         label: Get Started
         url: 'https://www.stackbit.com/'
-        style: link
+        style: primary
         elementId: hero-main-button
         showIcon: false
         icon: arrowLeft
