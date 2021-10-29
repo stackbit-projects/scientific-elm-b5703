@@ -6,7 +6,10 @@ const LogoSection = (props) => {
 
     console.log(limit, api_url);
     useEffect(() => {
-        //const url = "https://api.thedogapi.com/v1/images/search?limit=5";
+
+        if (!api_url){
+            return;
+        }
 
         const url = "https://api.thedogapi.com/v1/breeds?limit=5";
         const fetchData = async () => {
