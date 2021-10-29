@@ -4,7 +4,7 @@ const LogoSection = (props) => {
     const { annotationPrefix, logos, title } = props;
 
     useEffect(() => {
-        const url = "https://api.adviceslip.com/advice";
+        const url = "https://api.thedogapi.com/v1/images/search?limit=5";
 
         const fetchData = async () => {
             try {
