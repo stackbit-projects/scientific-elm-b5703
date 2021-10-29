@@ -7,11 +7,11 @@ const LogoSection = (props) => {
     console.log(limit, api_url);
     useEffect(() => {
 
-        if (!api_url){
+        if (!api_url) {
             return;
         }
 
-        if (!limit){
+        if (!limit) {
             limit = 5;
         }
 
