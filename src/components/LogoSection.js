@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const LogoSection = (props) => {
     const { annotationPrefix, logos, title } = props;
