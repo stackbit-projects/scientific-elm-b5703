@@ -5,6 +5,7 @@ sections:
   - title: My Dogs
     logos: []
     type: LogoSection
+    limit: 5
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-f
