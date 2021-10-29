@@ -2,6 +2,9 @@
 title: Home
 layout: PageLayout
 sections:
+  - title: lorem-ipsum
+    logos: []
+    type: LogoSection
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-f
