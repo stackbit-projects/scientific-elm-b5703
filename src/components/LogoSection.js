@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const LogoSection = (props) => {
-    const { annotationPrefix, logos, title } = props;
+    const { annotationPrefix, title } = props;
     const [dogs, setDogs] = useState([]);
 
     console.log(props);
