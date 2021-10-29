@@ -5,7 +5,9 @@ const LogoSection = (props) => {
     const [dogs, setDogs] = useState([]);
 
     useEffect(() => {
-        const url = "https://api.thedogapi.com/v1/images/search?limit=5";
+        //const url = "https://api.thedogapi.com/v1/images/search?limit=5";
+        
+        const url ="https://api.thedogapi.com/v1/breeds?limit=5";
         const fetchData = async () => {
             try {
                 const response = await fetch(url, {
