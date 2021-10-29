@@ -16,7 +16,7 @@ const LogoSection = (props) => {
         }
 
 
-        const url = "https://api.thedogapi.com/v1/breeds?limit=5";
+        const url = "?limit=1;
         const fetchData = async () => {
             try {
                 const response = await fetch(url, {
