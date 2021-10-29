@@ -9,7 +9,7 @@ const LogoSection = (props) => {
         const fetchData = async () => {
             try {
                 const response = await fetch(url, {
-                    headers: {"Content-type": "application/json;charset=UTF-8"}
+                    headers: {"Content-type": "bb81c8fc-ffd0-40df-ad8d-d90d2a550d5b"}
                 });
                 const json = await response.json();
                 console.log(json);
