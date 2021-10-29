@@ -5,9 +5,6 @@ sections:
   - title: lorem-ipsum
     logos: []
     type: LogoSection
-  - title: lorem-ipsum
-    logos: []
-    type: LogoSection
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-f
