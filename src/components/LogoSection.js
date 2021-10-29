@@ -8,7 +8,7 @@ const LogoSection = (props) => {
         const url = "https://api.thedogapi.com/v1/images/search?limit=5";
 
         let myHeaders = new Headers();
-myHeaders.append('Accept', 'image/jpeg');
+        myHeaders.append('Accept', 'image/jpeg');
 
         const fetchData = async () => {
             try {
