@@ -11,6 +11,10 @@ const LogoSection = (props) => {
             return;
         }
 
+        if (!limit){
+            limit = 5;
+        }
+
         if (limit)
         api_url + 
         const url = "https://api.thedogapi.com/v1/breeds?limit=5";
