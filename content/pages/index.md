@@ -2,7 +2,7 @@
 title: Home
 layout: PageLayout
 sections:
-  - title: Hello World
+  - title: url goes here
     logos: []
     type: LogoSection
   - type: HeroSection
