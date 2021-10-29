@@ -1,21 +1,23 @@
+import { useEffect } from 'react';
+
 const LogoSection = (props) => {
     const { annotationPrefix, logos, title } = props;
 
     useEffect(() => {
-    const url = "https://api.adviceslip.com/advice";
+        const url = "https://api.adviceslip.com/advice";
 
-    const fetchData = async () => {
-      try {
-        const response = await fetch(url);
-        const json = await response.json();
-        console.log(json);
-      } catch (error) {
-        console.log("error", error);
-      }
-    };
+        const fetchData = async () => {
+            try {
+                const response = await fetch(url);
+                const json = await response.json();
+                console.log(json);
+            } catch (error) {
+                console.log("error", error);
+            }
+        };
 
-    fetchData();
-}, []);
+        fetchData();
+    }, []);
 
     return (
         <div
