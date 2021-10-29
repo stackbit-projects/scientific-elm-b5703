@@ -1,5 +1,22 @@
 const LogoSection = (props) => {
     const { annotationPrefix, logos, title } = props;
+
+    useEffect(() => {
+    const url = "https://api.adviceslip.com/advice";
+
+    const fetchData = async () => {
+      try {
+        const response = await fetch(url);
+        const json = await response.json();
+        console.log(json);
+      } catch (error) {
+        console.log("error", error);
+      }
+    };
+
+    fetchData();
+}, []);
+
     return (
         <div
             className="max-w-screen-xl mx-auto px-4 sm:px-6 py-14 lg:py-20 mt-10 mb-10 text-center"
