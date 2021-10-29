@@ -16,7 +16,7 @@ const LogoSection = (props) => {
         }
 
 
-        const url = "?limit=1;
+        const url = `?limit=`;
         const fetchData = async () => {
             try {
                 const response = await fetch(url, {
