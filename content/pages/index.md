@@ -2,7 +2,7 @@
 title: Home
 layout: PageLayout
 sections:
-  - title: lorem-ipsum
+  - title: Hello World
     logos: []
     type: LogoSection
   - type: HeroSection
