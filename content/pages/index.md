@@ -6,7 +6,7 @@ sections:
     logos: []
     type: LogoSection
     limit: 5
-    api_url: 'https://api.thedogapi.com/v1/breeds?limit=5'
+    api_url: 'https://api.thedogapi.com/v1/breeds'
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-f
