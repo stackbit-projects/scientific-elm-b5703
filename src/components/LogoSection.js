@@ -4,7 +4,7 @@ const LogoSection = (props) => {
     const { annotationPrefix, title, limit, api_url } = props;
     const [dogs, setDogs] = useState([]);
 
-    console.log(props);
+    console.log(limit, api_url);
     useEffect(() => {
         //const url = "https://api.thedogapi.com/v1/images/search?limit=5";
 
