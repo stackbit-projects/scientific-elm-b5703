@@ -6,4 +6,4 @@ fields:
   - type: string
     name: title
   - type: number
-  name: limit
+    name: limit
