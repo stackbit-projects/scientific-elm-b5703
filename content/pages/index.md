@@ -20,6 +20,7 @@ sections:
         elementId: hero-main-button
         showIcon: true
         icon: arrowLeft
+        iconPosition: right
       - type: Button
         label: Learn More
         url: 'https://www.stackbit.com/'
