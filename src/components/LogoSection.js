@@ -48,7 +48,9 @@ const LogoSection = (props) => {
                     </div>
                 ))}
             </div>
-            {dogs.map((dog))}
+            {dogs.map((dog)=>(
+
+            )};
         </div>
     );
 };
