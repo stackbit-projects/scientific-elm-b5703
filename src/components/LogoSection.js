@@ -55,6 +55,7 @@ const LogoSection = (props) => {
                 <p key={dog.id}>{dog.name}</p>
                 </React.Fragment>
                 <img key={dog.image.id} src={dog.image.url} />
+                </React.Fragment>
             ))};
         </div>
     );
