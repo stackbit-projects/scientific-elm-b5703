@@ -12,7 +12,6 @@ const LogoSection = (props) => {
                     headers: { "x-api-key": "bb81c8fc-ffd0-40df-ad8d-d90d2a550d5b" }
                 });
                 const json = await response.json();
-                console.log(json);
             } catch (error) {
                 console.log("error", error);
             }
