@@ -10,11 +10,13 @@ const LogoSection = (props) => {
         let myHeaders = new Headers();
         myHeaders.append('x-api-key', 'bb81c8fc-ffd0-40df-ad8d-d90d2a550d5b');
 
-        
+
 
         const fetchData = async () => {
             try {
-                const response = await fetch(url);
+                const response = await fetch(url, {
+                    headers: headers: {"Content-type": "application/json;charset=UTF-8"}
+                });
                 const json = await response.json();
                 console.log(json);
             } catch (error) {
