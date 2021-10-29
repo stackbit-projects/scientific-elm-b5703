@@ -18,7 +18,7 @@ sections:
         url: 'https://www.stackbit.com/'
         style: primary
         elementId: hero-main-button
-        showIcon: false
+        showIcon: true
         icon: arrowLeft
       - type: Button
         label: Learn More
