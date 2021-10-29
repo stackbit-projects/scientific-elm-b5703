@@ -3,7 +3,7 @@ label: Logo section
 groups:
   - sectionComponent
 fields:
-  - type: string
+  - type: hidden
     name: title
   - type: list
     name: logos
