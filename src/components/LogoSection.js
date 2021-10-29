@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const LogoSection = (props) => {
     const { annotationPrefix, logos, title } = props;
@@ -6,8 +6,8 @@ const LogoSection = (props) => {
 
     useEffect(() => {
         //const url = "https://api.thedogapi.com/v1/images/search?limit=5";
-        
-        const url ="https://api.thedogapi.com/v1/breeds?limit=5";
+
+        const url = "https://api.thedogapi.com/v1/breeds?limit=5";
         const fetchData = async () => {
             try {
                 const response = await fetch(url, {
@@ -52,8 +52,8 @@ const LogoSection = (props) => {
             </div>
             {dogs.map((dog) => (
                 <React.Fragment>
-                <p key={dog.id}>{dog.name}</p>
-                <img key={dog.image.id} src={dog.image.url} />
+                    <p key={dog.id}>{dog.name}</p>
+                    <img key={dog.image.id} src={dog.image.url} />
                 </React.Fragment>
             ))};
         </div>
