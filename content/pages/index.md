@@ -18,7 +18,7 @@ sections:
         url: 'https://www.stackbit.com/'
         style: primary
         elementId: hero-main-button
-        showIcon: false
+        showIcon: true
       - type: Button
         label: Learn More
         url: 'https://www.stackbit.com/'
