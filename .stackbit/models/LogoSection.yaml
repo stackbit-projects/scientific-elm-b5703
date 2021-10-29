@@ -8,3 +8,5 @@ fields:
   - type: number
     name: limit
     default: 5
+  - type: string
+    name: api_url
