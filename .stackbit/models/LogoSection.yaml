@@ -5,5 +5,5 @@ groups:
 fields:
   - type: string
     name: title
-  -type: number
+  - type: number
   name: limit
