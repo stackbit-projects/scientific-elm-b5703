@@ -33,10 +33,6 @@ const LogoSection = (props) => {
                 data-sb-field-path=".title">
                 {title}
             </h1>
-            <div
-                className="flex justify-center items-center"
-                data-sb-field-path=".logos">
-            </div>
             {dogs.map((dog) => (
                 <React.Fragment>
                     <p key={dog.id}>{dog.name}</p>
