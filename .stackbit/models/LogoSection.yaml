@@ -4,4 +4,13 @@ groups:
   - sectionComponent
 fields:
   - type: string
-    name: titles
+    name: title
+  - type: list
+    name: logos
+    items:
+      type: object
+      fields:
+        - type: string
+          name: name
+        - type: image
+          name: image
