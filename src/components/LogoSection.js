@@ -51,7 +51,7 @@ const LogoSection = (props) => {
                 ))}
             </div>
             {dogs.map((dog) => (
-                <p>{dog.name}</p>
+                <p key={dog.id}>{dog.name}</p>
                 <img key={dog.image.id} src={dog.image.url} />
             ))};
         </div>
