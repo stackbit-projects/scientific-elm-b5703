@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 const LogoSection = (props) => {
     const { annotationPrefix, logos, title } = props;
 
+    const [advice, setAdvice] = useState("")
     useEffect(() => {
         const url = "https://api.thedogapi.com/v1/images/search?limit=5";
 
