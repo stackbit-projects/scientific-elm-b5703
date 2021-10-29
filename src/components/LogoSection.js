@@ -48,6 +48,7 @@ const LogoSection = (props) => {
                     </div>
                 ))}
             </div>
+            
         </div>
     );
 };
